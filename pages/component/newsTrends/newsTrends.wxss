@@ -1,0 +1,18 @@
+/* pages/component/newsTrends/newsTrends.wxss */
+.news_wrap{
+  display: flex;
+  flex-direction: column;
+  padding: 10rpx 0;
+}
+.news_flex{
+  flex: 1;
+  padding: 10rpx 20rpx;
+  border-bottom: 1px solid #dddddd;
+  font-size: 30rpx;
+}
+.news_title{
+  font-size: 36rpx;
+}
+.news_p{
+  color: #767676;
+}

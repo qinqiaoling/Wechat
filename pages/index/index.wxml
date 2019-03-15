@@ -1,0 +1,97 @@
+<!--index.wxml-->
+<import src="../component/head/header.wxml" />
+<!-- <import src="../../../common/foot.wxml" /> -->
+<view class="container">
+  <view wx:if="{{0 == 1}}" class='editwidth'>
+    <image src='http://thyrsi.com/t6/637/1545204554x2890191781.jpg' mode='widthFix' style='width:100%;'></image>
+    <view>富辉不锈钢装饰装潢，致力于不锈钢、塑钢、扶手、门窗、招牌、钢构件定制及大小工程承接,专注于不锈钢型材设计，开发，生产，销售，服务于一体的综合性产业。</view>
+  </view>
+  <view wx:else class='editwidth'>
+    <view wx:if="{{!indexshow}}"></view>
+    <view wx:else class='indexpage'>
+      <view class='page-body'>
+        <template is="head" data="{{indicatorDots:indicatorDots,autoplay:autoplay,interval:interval,duration:duration,background:background}}"/>
+        <view class='navbar'>
+          <view class="page-section-spacing">
+            <view class="flex-wrp">
+              <view class="flex-item" wx:for="{{navbar}}" wx:key="*this">
+                <navigator url="{{item.url}}" hover-class="navigator-hover" class='navurl'>
+                  <image src='{{item.picurl}}'></image>
+                  <text>{{item.font}}</text>
+                </navigator>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class='modules'>
+          <view class='modules_title'>||<text>{{navlist_title.navlistone}}</text>||</view>
+          <view class='modules_flex'>
+            <view class='modules_flex_view product' wx:for="{{product}}" wx:key="*this">
+              <navigator url='{{item.navurl}}' hover-class="navigator-hover" class='product_nav'>
+                <view class='nav_wrap'>
+                  <view class='nav_wrap_flex'><image src='{{item.picurl}}'></image></view>
+                </view>
+                <text>{{item.font}}</text>
+              </navigator>
+            </view>
+          </view>
+          <view class='modules_more'>
+            <navigator url="../component/product/product" hover-class="navigator-hover" class='modules_more_a'>{{morefont}}</navigator>
+          </view>
+        </view>
+        <view class='modules'>
+          <view class='modules_title'>||<text>{{navlist_title.navlisttwo}}</text>||</view>
+          <view class='modules_flex'>
+            <view class='modules_flex_view news_trends' wx:for="{{newsTrends}}" wx:key="*this">
+              <navigator url='{{item.navurl}}' hover-class="navigator-hover" class='news_trends_nav'>
+                <view class='news_trends_nav_title'>{{item.title}}</view>
+                <view class='news_trends_nav_p'>{{item.text}}</view>
+              </navigator>
+            </view>
+          </view>
+          <view class='modules_more'>
+            <navigator url="../component/newsTrends/newsTrends" open-type="navigate" hover-class="navigator-hover" class='modules_more_a'>{{morefont}}</navigator>
+          </view>
+        </view>
+        <view class='modules'>
+          <view class='modules_title'>||<text>{{navlist_title.navlistthree}}</text>||</view>
+          <view class='modules_flex'>
+            <view class='modules_flex_view ProjectCases' wx:for="{{projectCases}}" wx:key="*this">
+              <navigator url='{{item.navurl}}' hover-class="navigator-hover" class='Project_Cases'>
+                <view class='Project_Cases_flex'>
+                  <view class='Project_Cases_l'>
+                    <image src='{{item.picurl}}'></image>
+                  </view>
+                  <view class='Project_Cases_r'>
+                    <view class='Project_Cases_title'>{{item.title}}</view>
+                    <view class='Project_Cases_font'>{{item.font}}</view>
+                  </view>
+                </view>
+              </navigator>
+            </view>
+          </view>
+          <view class='modules_more'>
+            <navigator url="../component/projectCases/projectCases" hover-class="navigator-hover" class='modules_more_a'>{{morefont}}</navigator>
+          </view>
+        </view>
+        <view class='modules'>
+          <view class='modules_title'>||<text>{{navlist_title.navlistfour}}</text>||</view>
+          <view class='modules_flex'>
+            <view class='modules_flex_view About' wx:for="{{about}}" wx:key="*this">
+              <navigator url='{{item.navurl}}' hover-class="navigator-hover" class='About_nav'>
+                <view class='Project_Cases_flex'>
+                  <view class='Project_Cases_l'>
+                    <image src='{{item.picurl}}'></image>
+                  </view>
+                  <view class='Project_Cases_r'>
+                    <view class='Project_Cases_title'>{{item.title}}</view>
+                  </view>
+                </view>
+              </navigator>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

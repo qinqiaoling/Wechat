@@ -1,0 +1,68 @@
+/* pages/common/myself/myself.wxss */
+.my_head_img{
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+.my_head_img image{
+  width: 100%;
+  /* max-height: 480rpx; */
+}
+.my_info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.my_info_title{
+  font-size: 36rpx;
+  text-align: center;
+  flex: 1;
+  padding: 10rpx 20rpx;
+}
+/* .my_info text{
+  display: block;
+  font-size: 28rpx;
+  flex: 1;
+  padding: 4rpx 40rpx;
+} */
+.my_info_flex{
+  display: block;
+  font-size: 28rpx;
+  padding: 4rpx 40rpx;
+}
+.my_info_flex text:first-child{
+  display: inline-block;
+}
+.my_info_flex text:last-child{
+  display: inline-flex;
+}
+.my_call{
+  padding: 20rpx 40rpx;
+}
+.my_call button{
+  background:#ff8500;
+  color:#ffffff;
+  border-radius:16rpx;
+  height:70rpx;
+  line-height:70rpx;
+  text-align:center;
+  border:1px solid #ff8500;
+  padding:0;
+  font-size:36rpx;
+  width: 100%;
+}
+.my_map{
+  width: 100%;
+  display: flex;
+}
+.my_map_flex{
+  flex: 1;
+  padding: 20rpx 20rpx 40rpx 20rpx;
+}
+.my_map .my_map_flex map{
+  width: 100%;
+  height: 600rpx;
+}
+
+
+

@@ -1,0 +1,44 @@
+/* pages/component/projectCases/projectCases.wxss */
+.modules_flex_view.ProjectCases{
+  flex: 0 0 100%;
+  overflow: hidden;
+}
+.Project_Cases{
+  padding: 20rpx;
+  font-size:30rpx;
+  border-bottom: 1px solid #cccccc;
+  display: block;
+  overflow: hidden;
+}
+.Project_Cases_flex{
+  display: flex;
+  flex-direction: column;
+}
+.Project_Cases_l{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.Project_Cases_l image{
+  width: 100%;
+  height: auto;
+}
+.Project_Cases_r{
+  flex: 1;
+  overflow: hidden;
+}
+.Project_Cases_title{
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+  font-size: 36rpx;
+}
+.Project_Cases_font{
+  color: #767676;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* white-space: nowrap; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /* -webkit-line-clamp: 3; */
+} 

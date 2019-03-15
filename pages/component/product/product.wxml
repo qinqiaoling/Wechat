@@ -1,0 +1,16 @@
+<!--pages/component/product/product.wxml-->
+<!-- <text>pages/component/product/product.wxml</text> -->
+<view class="container">
+  <view class='modules_flex'>
+    <view class='modules_flex_view product' wx:for="{{product}}" wx:key="*this">
+      <view class='product_nav'>
+        <view class='nav_wrap'>
+          <view class='nav_wrap_flex'>
+            <image src='{{item.picurl}}' data-src='{{item.picurl}}' bindtap='previewImage_a'></image>
+          </view>
+        </view>
+        <text>{{item.font}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/component/projectCases/projectCases.wxml-->
+<!-- <text>pages/component/projectCases/projectCases.wxml</text> -->
+<view class="container">
+  <view class='modules_flex'>
+    <view class='modules_flex_view ProjectCases' wx:for="{{projectCases}}" wx:key="*this">
+      <view class='Project_Cases'>
+        <view class='Project_Cases_flex'>
+          <view class='Project_Cases_l'>
+            <image src='{{item.picurl}}' data-src='{{item.picurl}}' mode='widthFix' bindtap='previewImage'></image>
+          </view>
+          <view class='Project_Cases_r'>
+            <view class='Project_Cases_title'>{{item.title}}</view>
+            <view class='Project_Cases_font'>{{item.font}}</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

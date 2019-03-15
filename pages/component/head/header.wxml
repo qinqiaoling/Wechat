@@ -1,0 +1,16 @@
+<!--pages/common/head/header.wxml-->
+<!-- <text>pages/common/head/header.wxml</text> -->
+<template name="head">
+  <view class='head-swiper'>
+    <view class="page-section page-section-spacing swiper">
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+        <swiper-item wx:for="{{background}}" wx:key="*this">
+          <view class="swiper-item">
+            <image src='{{item.picurl}}' data-src="{{item.picurl}}" bindtap="previewImage"></image>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+</template>

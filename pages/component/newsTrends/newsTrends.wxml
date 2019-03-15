@@ -1,0 +1,10 @@
+<!--pages/component/newsTrends/newsTrends.wxml-->
+<!-- <text>pages/component/newsTrends/newsTrends.wxml</text> -->
+<view class='container'>
+  <view class='news_wrap'>
+    <view class='news_flex' wx:for="{{news}}" wx:key="item">
+      <view class='news_title'>{{item.title}}</view>
+      <view class='news_p'>{{item.text}}</view>
+    </view>
+  </view>
+</view>

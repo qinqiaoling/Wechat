@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/common/myself/myself",
+    "pages/logs/logs",
+    "pages/component/head/header",
+    "pages/component/newsTrends/newsTrends",
+    "pages/component/product/product",
+    "pages/component/about/about",
+    "pages/component/projectCases/projectCases"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#009de2",
+    "navigationBarTitleText": "富辉不锈钢",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#0468d7",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": ""
+      },
+      {
+        "pagePath": "pages/common/myself/myself",
+        "text": ""
+      }
+    ]
+  },
+  "debug": "false"
+}

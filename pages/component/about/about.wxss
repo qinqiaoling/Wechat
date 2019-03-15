@@ -1,0 +1,25 @@
+/* pages/component/about/about.wxss */
+.About{
+  /* padding: 20rpx; */
+}
+.About .Project_Cases_l{
+  width: 100%;
+  overflow: hidden;
+}
+.About .Project_Cases_l image{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  overflow: hidden;
+}
+.About .Project_Cases_r .Project_Cases_title{
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  font-size: 30rpx;
+  padding: 20rpx;
+}

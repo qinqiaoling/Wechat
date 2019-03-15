@@ -1,0 +1,42 @@
+<!--pages/common/myself/myself.wxml-->
+<!-- <text>pages/common/myself/myself.wxml</text> -->
+<view class='container'>
+  <view class='my_head_img'>
+    <image src='{{my_head_img}}' data-src='{{my_head_img}}' mode='widthFix' bindtap='previewImage'></image>
+  </view>
+  <view class='my_info'>
+    <view class='my_info_title'>{{my_info_title}}</view>
+    <view class='my_info_flex'>
+      <text>{{rot_line.lxr}}</text>
+      <text>{{contact.linkman}}</text>
+    </view>
+    <view class='my_info_flex'>
+      <text>{{rot_line.tel}}</text>
+      <text>{{contact.telephone}}</text>
+    </view>
+    <view class='my_info_flex'>
+      <text>{{rot_line.adress}}</text>
+      <text>{{contact.address}}</text>
+    </view>
+    <!-- <view class='my_call'><button bindtap='my_call'>{{rot_line.rot_line}}{{contact.telephone}}</button></view> -->
+  </view>
+  <view class='my_map'>
+    <view class='my_map_flex'>
+      <map
+        id="map"
+        longitude="{{longitude}}"
+        latitude="{{latitude}}"
+        scale="16"
+        markers="{{markers}}"
+        polyline="{{polyline}}"
+        circles='{{circles}}'
+        controls="{{controls}}"
+        show-compass="true"
+        show-location="true"
+        bindmarkertap="markertap"
+        bindcontroltap="controltap"
+        bindregionchange="regionchange"
+      ></map>
+    </view>
+  </view>
+</view>
