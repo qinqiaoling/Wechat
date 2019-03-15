@@ -52,7 +52,7 @@ Page({
   },
   contactus:function(){
     wx.makePhoneCall({
-      phoneNumber: '13487001219', //此号码并非真实电话号码，仅用于测试
+      phoneNumber: '134****1219', //此号码并非真实电话号码，仅用于测试
       success: function () {
         console.log("拨打电话成功！")
       },
