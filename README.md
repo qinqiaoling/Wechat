@@ -1,5 +1,5 @@
 # Wechat
-> 1，微信小程序的一个dome ,本例子appid是测试appid,下载后需要修改成自己的appid。
+> 1，微信小程序的一个dome ,本例子appid是测试appid,下载后需要修改成自己的appid。下载后删除README.md文件。
 
 > 2，功能：
 
