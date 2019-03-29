@@ -13,5 +13,8 @@
         
         e,轮播图以及图片列表和图片详情。
         
-  >3，![demo1](https://github.com/daxiongYang/renren-fast-vue/blob/master/demo-screenshot/dome1.png)
+  >3，
+  ![demo1](https://github.com/qinqiaoling/Wechat/blob/master/kind/dome1.png)
+  ![demo2](https://github.com/qinqiaoling/Wechat/blob/master/kind/dome2.png)
+  ![demo3](https://github.com/qinqiaoling/Wechat/blob/master/kind/dome3.png)
         
