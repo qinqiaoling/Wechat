@@ -13,3 +13,5 @@
         
         e,轮播图以及图片列表和图片详情。
         
+  >3，![demo1](https://github.com/daxiongYang/renren-fast-vue/blob/master/demo-screenshot/dome1.png)
+        
