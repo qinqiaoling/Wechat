@@ -272,13 +272,13 @@ const indexnavdata = {
     {
       navurl: '../component/about/about',
       picurl: 'http://thyrsi.com/t6/637/1545204554x2890191781.jpg',
-      title: '富辉不锈钢装饰装潢，致力于不锈钢、塑钢、扶手、门窗、招牌、钢构件定制及大小工程承接,专注于不锈钢型材设计，开发，生产，销售，服务于一体的综合性产业。',
+      title: 'XX不锈钢装饰装潢，致力于不锈钢、塑钢、扶手、门窗、招牌、钢构件定制及大小工程承接,专注于不锈钢型材设计，开发，生产，销售，服务于一体的综合性产业。',
     }
   ],
   contact:{
     linkman:'刘某',
-    telephone:'134****1219',
-    address:'湖北省随州市沿河大道环保局对面'
+    telephone:'134****1XX9',
+    address:'湖北省随州市XXXX环保局对面'
   }
 }
 const version=0;

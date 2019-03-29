@@ -52,7 +52,7 @@ Page({
   },
   contactus:function(){
     wx.makePhoneCall({
-      phoneNumber: '134****1219', //此号码并非真实电话号码，仅用于测试
+      phoneNumber: '134****1XX9', //此号码并非真实电话号码，仅用于测试
       success: function () {
         console.log("拨打电话成功！")
       },
@@ -94,7 +94,7 @@ Page({
     wx.showTabBar();//底部tabbar出现
     //设置顶部的导航条标题
     wx.setNavigationBarTitle({
-      title: '富辉不锈钢'
+      title: '首页'
     });
     //页面出现数据
     this.setData({
@@ -103,7 +103,7 @@ Page({
     //设置tabbar第一项，从左边起
     wx.setTabBarItem({
       index: 0,
-      text: '富辉不锈钢',
+      text: '首页',
       iconPath: 'image/shouye.png',
       selectedIconPath: 'image/shouye_hl.png'
     });

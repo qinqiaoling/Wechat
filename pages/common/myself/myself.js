@@ -7,7 +7,7 @@ Page({
    */
   data: {
     my_head_img:'http://thyrsi.com/t6/637/1545204554x2890191781.jpg',
-    my_info_title:'富辉不锈钢',
+    my_info_title:'XX不锈钢',
     contact: {
       linkman: '',
       telephone: '',
@@ -29,7 +29,7 @@ Page({
       width: 30,
       height: 30,
       callout:{
-        content:'富辉不锈钢\n湖北省随州市沿河大道环保局斜对面',
+        content:'XX不锈钢\n湖北省随州市XXXX环保局斜对面',
         color:'#FF0000',
         fontSize:14,
         textAlign: 'center',
@@ -40,7 +40,7 @@ Page({
         padding: 6
       },
       label:{
-        content:'富辉不锈钢',
+        content:'XX不锈钢',
         color:'#FF0000DD',
         fontSize:12,
         textAlign:'left',
@@ -99,8 +99,8 @@ Page({
           wx.openLocation({
             longitude: 113.3656190000,
             latitude: 31.7249830000,
-            name: '富辉不锈钢',
-            address: '湖北省随州市沿河大道环保局斜对面'
+            name: 'XX不锈钢',
+            address: '湖北省随州市XXXX环保局斜对面'
           })
         }
       });
@@ -122,7 +122,7 @@ Page({
   },
   my_call: function () {
     wx.makePhoneCall({
-      phoneNumber: '134****1219', //此号码并非真实电话号码，仅用于测试
+      phoneNumber: '134****1XX9', //此号码并非真实电话号码，仅用于测试
       success: function () {
         console.log("拨打电话成功！")
       },

@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    headpicurl:'http://thyrsi.com/t6/637/1545204554x2890191781.jpg',
+    headpicurl:'http://sowcar.com/t6/692/1553846790x2059272752.jpg',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
